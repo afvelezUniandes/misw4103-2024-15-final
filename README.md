@@ -7,4 +7,6 @@
 > - **Reconocimiento (monkey):** [README aquí](Reconocimiento/monkey/README.md)
 > - **Reconocimiento (RIPuppet):** [README aquí](Reconocimiento/RIPuppet/README.md)
 > - **VRT:** [README aquí](VRT/README.md)
-> - **Inventario de pruebas exploratorias:** [README aquí](inventario-de-pruebas-exploratorias/README.md)
+
+> - **Inventario de pruebas exploratorias:** Este contiene un archivo .xlsx.
+ 
