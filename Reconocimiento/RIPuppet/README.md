@@ -1,7 +1,7 @@
 # RIPuppet
 Una biblioteca de Node.js para GUI Ripping en aplicaciones web
 
-# Executing
+# Ejecución
 
 - Node.js (versión 12 o superior)
 - npm (versión 6 o superior)
