@@ -6,5 +6,5 @@
 > - **Extremo a extremo:** [README aquí](Extremo-a-extremo/README.md)
 > - **Reconocimiento (monkey):** [README aquí](Reconocimiento/monkey/README.md)
 > - **Reconocimiento (RIPuppet):** [README aquí](Reconocimiento/RIPuppet/README.md)
-> - **VRT:** [README aquí](Reconocimiento/README.md)
+> - **VRT:** [README aquí](VRT/README.md)
 > - **Inventario de pruebas exploratorias:** [README aquí](inventario-de-pruebas-exploratorias/README.md)
