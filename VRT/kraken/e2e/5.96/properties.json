@@ -1,0 +1,12 @@
+{
+  "USERNAME": "pa.sandoval@uniandes.edu.co",
+  "PASSWORD": "Pruebas123",
+  "BASE_URL": "http://localhost:2368",
+  "URL_SIGN_IN": "http://localhost:2368/ghost/#/signin",
+  "URL_DASHBOARD": "http://localhost:2368/ghost/#/dashboard",
+  "URL_POST_DRAFTS":"http://localhost:2368/ghost/#/posts?type=draft",
+  "URL_POSTS_PUBLISH":"http://localhost:2368/ghost/#/posts?type=published",
+  "URL_POST_SCHEDULED":"http://localhost:2368/ghost/#/posts?type=scheduled",
+  "URL_PAGES":"http://localhost:2368/ghost/#/pages",
+  "URL_POSTS":"http://localhost:2368/ghost/#/posts"
+}

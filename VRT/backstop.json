@@ -1,0 +1,100 @@
+{
+  "id": "backstop_default",
+  "viewports": [
+    {
+      "label": "default",
+      "width": 800,
+      "height": 600
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "P002 - Inicio de sesion Valido - Paso 3: Dashboard",
+      "referenceUrl": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/reference/inicio_sesion.cy.js/P002-Paso3-Dashboard.png",
+      "url": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/test/inicio_sesion.cy.js/P002-Paso3-Dashboard.png",
+      "selectors": ["body"],
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "P003 - cerrar sesion - Paso 3: Cerrar sesión",
+      "referenceUrl": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/reference/inicio_sesion.cy.js/P003-Paso3-CerrarSesion.png",
+      "url": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/test/inicio_sesion.cy.js/P003-Paso3-CerrarSesion.png",
+      "selectors": ["body"],
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "P017 - Crear Miembro - Paso 7: Mensaje de Guardado",
+      "referenceUrl": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/reference/miembro.cy.js/P017-Paso7-MensajeDeGuardado.png",
+      "url": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/test/miembro.cy.js/P017-Paso7-MensajeDeGuardado.png",
+      "selectors": ["body"],
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "P019 - Eliminar miembro - Paso 6: Mensaje de Guardado",
+      "referenceUrl": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/reference/miembro.cy.js/P019-Paso6-MiembroEliminado.png",
+      "url": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/test/miembro.cy.js/P019-Paso6-MiembroEliminado.png",
+      "selectors": ["body"],
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "P014 - Crear Pagina - Paso 6: Mensaje de Publicado",
+      "referenceUrl": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/reference/pagina.cy.js/P014-Paso6-MensajeDePublicado.png",
+      "url": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/test/pagina.cy.js/P014-Paso6-MensajeDePublicado.png",
+      "selectors": ["body"],
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "P019 - Eliminar Pagina - Paso 6: No debe existir la pagina",
+      "referenceUrl": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/reference/pagina.cy.js/P016-Paso6-PaginaEliminada.png",
+      "url": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/test/pagina.cy.js/P016-Paso6-PaginaEliminada.png",
+      "selectors": ["body"],
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "P004 - Crear Post - Paso 6: Mensaje de Publicado",
+      "referenceUrl": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/reference/post.cy.js/P004-Paso6-MensajeDePublicado.png",
+      "url": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/test/post.cy.js/P004-Paso6-MensajeDePublicado.png",
+      "selectors": ["body"],
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "P006 - Eliminar Post - Paso 6: No debe existir el post",
+      "referenceUrl": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/reference/post.cy.js/P006-Paso6-PostEliminado.png",
+      "url": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/test/post.cy.js/P006-Paso6-PostEliminado.png",
+      "selectors": ["body"],
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "P011 - Crear Etiqueta - Paso 7: Mensaje de Guardado",
+      "referenceUrl": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/reference/tags.cy.js/P011-Paso7-MensajeDeGuardado.png",
+      "url": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/test/tags.cy.js/P011-Paso7-MensajeDeGuardado.png",
+      "selectors": ["body"],
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "P013 - Eliminar Etiqueta - Paso 5: No debe existir la etiqueta",
+      "referenceUrl": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/reference/tags.cy.js/P013-Paso5-EtiquetaEliminada.png",
+      "url": "../misw4103-2024-15-pruebas-regresion/cypress/screenshots/test/tags.cy.js/P013-Paso5-EtiquetaEliminada.png",
+      "selectors": ["body"],
+      "misMatchThreshold": 0.1
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

@@ -1,0 +1,56 @@
+{
+    "url": "Ghost App",
+    "browsers": ["chromium"],
+    "options": {
+        "output": {
+            "errorColor": {
+                "red": 255,
+                "green": 0,
+                "blue": 255
+            },
+            "errorType": "movement",
+            "largeImageThreshold": 1200,
+            "useCrossOrigin": false,
+            "outputDiff": true
+        },
+        "scaleToSameSize": true,
+        "ignore": "antialiasing"
+    },
+    "scenarios": [
+        {
+            "label": "Login Invalido 1",
+            "before": "4.5/login.feature/login_inicio_sesion_invalido_1_2024-11-17T11-11-28-140Z.png",
+            "after": "5.96/login.feature/login_inicio_sesion_invalido_1.png"
+        },
+        {
+            "label": "Login Invalido 2",
+            "before": "4.5/login.feature/login_inicio_sesion_invalido_2_2024-11-17T11-11-28-326Z.png",
+            "after": "5.96/login.feature/login_inicio_sesion_invalido_2.png"
+        },
+        {
+            "label": "Login Valido 1",
+            "before": "4.5/login.feature/login_inicio_sesion_valido_1_2024-11-17T11-11-27-590Z.png",
+            "after": "5.96/login.feature/login_inicio_sesion_valido_1.png"
+        },
+        {
+            "label": "Login Valido 2",
+            "before": "4.5/login.feature/login_inicio_sesion_valido_2_2024-11-17T11-11-27-724Z.png",
+            "after": "5.96/login.feature/login_inicio_sesion_valido_2.png"
+        },
+        {
+            "label": "Post Crear",
+            "before": "4.5/post.feature/post_crear_2024-11-17T12-15-18-233Z.png",
+            "after": "5.96/post.feature/post_crear_2024-11-17T10-37-19-133Z.png"
+        },
+        {
+            "label": "Post Previsualizacion",
+            "before": "4.5/post.feature/post_previsualizacion_post_2024-11-17T12-15-13-570Z.png",
+            "after": "5.96/post.feature/post_previsualizacion_post_2024-11-17T10-39-19-795Z.png"
+        },
+        {
+            "label": "Post Programacion",
+            "before": "4.5/post.feature/post_programacion_post_2024-11-17T12-15-23-977Z.png",
+            "after": "5.96/post.feature/post_programacion_post_2024-11-17T10-37-26-201Z.png"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_P003_-_Cerrar_sesin_-_Paso_3_Cerrar_sesin_0_body_0_default.png",
+        "test": "../bitmaps_test/20241116-204545/backstop_default_P003_-_Cerrar_sesin_-_Paso_3_Cerrar_sesin_0_body_0_default.png",
+        "selector": "body",
+        "fileName": "backstop_default_P003_-_Cerrar_sesin_-_Paso_3_Cerrar_sesin_0_body_0_default.png",
+        "label": "P003 - Cerrar sesión - Paso 3: Cerrar sesión",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "file://../cypress/screenshots/test/inicio_sesion.cy.js/P003-Paso3-CerrarSesion.png",
+        "referenceUrl": "file://../cypress/screenshots/reference/inicio_sesion.cy.js/P003-Paso3-CerrarSesion.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "net::ERR_INVALID_URL at file://../cypress/screenshots/test/inicio_sesion.cy.js/P003-Paso3-CerrarSesion.png",
+        "error": "Reference file not found /Users/andresvelez/developments/uniandes/pruebas de software/misw4103-2024-15-pruebas-regresion/backstop_data/bitmaps_reference/backstop_default_P003_-_Cerrar_sesin_-_Paso_3_Cerrar_sesin_0_body_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_P017_-_Crear_Miembro_-_Paso_6_Mensaje_de_Guardado_0_body_0_default.png",
+        "test": "../bitmaps_test/20241116-204545/backstop_default_P017_-_Crear_Miembro_-_Paso_6_Mensaje_de_Guardado_0_body_0_default.png",
+        "selector": "body",
+        "fileName": "backstop_default_P017_-_Crear_Miembro_-_Paso_6_Mensaje_de_Guardado_0_body_0_default.png",
+        "label": "P017 - Crear Miembro - Paso 6: Mensaje de Guardado",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "file://../cypress/screenshots/test/miembro.cy.js/P017-Paso6-MensajeDeGuardado.png",
+        "referenceUrl": "file://../cypress/screenshots/reference/miembro.cy.js/P017-Paso6-MensajeDeGuardado.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "net::ERR_INVALID_URL at file://../cypress/screenshots/test/miembro.cy.js/P017-Paso6-MensajeDeGuardado.png",
+        "error": "Reference file not found /Users/andresvelez/developments/uniandes/pruebas de software/misw4103-2024-15-pruebas-regresion/backstop_data/bitmaps_reference/backstop_default_P017_-_Crear_Miembro_-_Paso_6_Mensaje_de_Guardado_0_body_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_P019_-_Eliminar_miembro_-_Paso_6_Miembro_Eliminado_0_body_0_default.png",
+        "test": "../bitmaps_test/20241116-204545/backstop_default_P019_-_Eliminar_miembro_-_Paso_6_Miembro_Eliminado_0_body_0_default.png",
+        "selector": "body",
+        "fileName": "backstop_default_P019_-_Eliminar_miembro_-_Paso_6_Miembro_Eliminado_0_body_0_default.png",
+        "label": "P019 - Eliminar miembro - Paso 6: Miembro Eliminado",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "file://../cypress/screenshots/test/miembro.cy.js/P019-Paso6-MiembroEliminado.png",
+        "referenceUrl": "file://../cypress/screenshots/reference/miembro.cy.js/P019-Paso6-MiembroEliminado.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "net::ERR_INVALID_URL at file://../cypress/screenshots/test/miembro.cy.js/P019-Paso6-MiembroEliminado.png",
+        "error": "Reference file not found /Users/andresvelez/developments/uniandes/pruebas de software/misw4103-2024-15-pruebas-regresion/backstop_data/bitmaps_reference/backstop_default_P019_-_Eliminar_miembro_-_Paso_6_Miembro_Eliminado_0_body_0_default.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}

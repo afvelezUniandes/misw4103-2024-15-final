@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cypress": "^13.16.0",
+    "kraken-node": "^1.0.24"
+  }
+}

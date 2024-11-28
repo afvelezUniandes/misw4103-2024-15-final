@@ -1,0 +1,108 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pruebas-de-miembros;eliminar-miembro",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Eliminar miembro",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I open Ghost",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I log in with valid username and password",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I navigate to the members page",
+            "match": {
+              "location": "features/web/step_definitions/steps.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I delete the member with name \"Miembro Editado\"",
+            "match": {
+              "location": "features/web/step_definitions/steps.js:69"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should not see the member",
+            "match": {
+              "location": "features/web/step_definitions/steps.js:88"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1067000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user3",
+            "line": 19
+          },
+          {
+            "name": "@web",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "pruebas-de-miembros",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pruebas de miembros",
+    "tags": [],
+    "uri": "features/miembro.feature"
+  }
+]
