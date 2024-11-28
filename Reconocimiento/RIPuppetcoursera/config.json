@@ -1,0 +1,9 @@
+{
+    "url": "http://localhost:2368/ghost/#/signin",
+    "headless": true,
+    "depthLevels": 4,
+    "values": {"identification": "pa.sandoval@uniandes.edu.co",
+        "password": "Prueba123"
+    },
+    "browsers": ["chromium", "webkit", "firefox"]
+}
